@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+.node_repl_history
+
+# Coverage
+coverage/
+.nyc_output/
+lcov-report/
+
+# Build / cache outputs
+dist/
+build/
+.out/
+.cache/
+.parcel-cache/
+
+# TypeScript (if used)
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Package manager artifacts
+*.tgz
+
+# Docker (optional local overrides / data)
+docker-compose.override.yml
+.docker/
+docker-data/
+
+# Local config overrides
+*.local.json
+*.local.yaml
+*.local.yml
+.tmp/
+temp/
+
+# Prometheus/Grafana local data (if you mount volumes)
+prometheus-data/
+grafana-data/
